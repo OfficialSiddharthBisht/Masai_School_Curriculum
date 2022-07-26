@@ -1,0 +1,53 @@
+.box{
+    /* border: 1px solid red; */
+    width: 25%;
+    /* margin: auto; */
+    margin-top: 2%;
+}
+img{
+    width: 100%;
+}
+#totalItem, #totalPrice{
+    /* border: 1px solid black; */
+    /* text-align: center; */
+    font-weight: bold;
+}
+#nav{
+    /* width: 80%; */
+    margin: auto;
+    /* margin-top: 2%; */
+    padding: 0.5%;
+     /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(43, 99, 203);
+    border-radius: 0.5vw;
+    box-shadow: rgba(255, 255, 255, 0.1) 0px 1px 1px 0px inset, rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px;        
+}
+a{
+    /* border: 1px solid black; */
+   padding: 1vw;
+   text-decoration: none;
+   color: white;
+   border-radius: 1vw;
+   box-shadow: rgba(50, 50, 93, 0.25) 0px 2px 5px -1px, rgba(0, 0, 0, 0.3) 0px 1px 3px -1px;
+}
+#payBox{
+    /* color: black; */
+    height: 100%;
+    text-align: center;
+    margin-top: 2.3%;
+    margin-right: 0.5%;
+    /* border: 1px solid black; */
+}
+#pay{
+    color: black;
+    font-weight: bold;
+}
+#midBox{
+    
+    display: flex;
+    margin-top: 3%;
+    justify-content: space-between;
+    /* border: 1px solid red; */
+}

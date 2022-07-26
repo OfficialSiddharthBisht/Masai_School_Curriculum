@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Checker</title>
+    <style>
+        h1{
+            text-align: center;
+            color: rgb(39, 108, 218);
+        }
+        #inputBox{
+            /* border: 1px solid red; */
+            border-radius: 1vw;
+            width: 21%;
+            margin: auto;
+            padding: 2%;
+            padding-top: 0.5%;
+            box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+        }
+        #month{
+            padding: 2%;
+            width: 100%;
+        }
+        #income{
+            width: 94.5%;
+            padding: 2%;
+        }
+        #expense{
+            width: 94.5%;
+            padding: 2%;
+        }
+        #ip{
+            margin-bottom: 2%;
+            font-weight: bold;
+        }
+        #ep{
+            margin-bottom: 2%;
+            font-weight: bold;
+        }
+        #smp{
+            margin-bottom: 2%;
+            font-weight: bold;
+        }
+        #submit{
+            margin-top: 5%;
+            width: 100%;
+            padding: 2%;
+            border-radius: 1vw;
+            font-weight: bold;
+            background-color:  rgb(39, 108, 218);
+            color: white;
+        }
+        #container{
+           
+            
+            width: 75%;
+            /* height: 500px; */
+            margin: auto;
+            margin-top: 5%;
+            display: grid;
+            grid-template-columns: repeat(4,1fr);
+            grid-template-rows: auto;
+            gap: 2vw;
+            /* border: 1px solid red; */
+        }
+        .card{
+            /* border: 1px solid blue; */
+            padding: 2vw;
+            border-radius: 1vw;
+            box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em, rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em, rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+        }
+        .cardM{
+            color: rgb(14, 142, 210);
+            font-size: 1.5vw;
+            font-weight: bold;
+        }
+        .cardI{
+            color: rgb(79, 197, 20);
+        }
+        .cardE{
+            color: red;
+        }
+        .cardS{
+            color: rgb(39, 84, 208);
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+    <h1><u>EXPENSE TRACKER</u></h1>
+    <div id="inputBox">
+        <form id="myForm">
+            <p id="smp">Select Month</p>
+            <select id="month">
+                <option value="">Select Month</option>
+                <option value="January">January</option>
+                <option value="February">February</option>
+                <option value="March">March</option>
+                <option value="April">April</option>
+                <option value="May">May</option>
+                <option value="June">June</option>
+                <option value="July">July</option>
+                <option value="August">August</option>
+                <option value="September">September</option>
+                <option value="October">October</option>
+                <option value="November">November</option>
+                <option value="December">December</option>
+            </select>
+            <p id="ip">Income</p>
+            <input type="number" id="income" placeholder="Enter income in Rs.">
+            <p id="ep">Expense</p>
+            <input type="number" id="expense" placeholder="Enter expense in Rs.">
+            <br>
+            <input type="submit" id="submit">
+        </form>
+    </div>
+    <div id="container">
+
+    </div>
+
+    <script>
+        var totalExpense;
+        if(localStorage.getItem('userData')==null){
+            totalExpense=[];
+        }
+        else{
+            totalExpense=JSON.parse(localStorage.getItem('userData'));
+            totalExpense.forEach(function(details){
+                var card=document.createElement('div');
+                card.setAttribute('class','card');
+
+                var month=document.createElement('p');
+                month.setAttribute('class','cardM');
+                month.innerText=details.month;
+
+                var income=document.createElement('p');
+                income.setAttribute('class','cardI');
+                income.innerText="Your income is Rs " +details.income +"/-";
+
+                var expense=document.createElement('p');
+                expense.setAttribute('class','cardE');
+                expense.innerText="Your expense is Rs " +details.expense +"/-";
+
+                var savings=document.createElement('p');
+                savings.setAttribute('class','cardS');
+                savings.innerText="Your Savings is Rs " +details.savings +"/-";
+
+                card.append(month, income, expense, savings);
+
+                document.querySelector('#container').append(card);
+            });
+        }
+
+        document.querySelector('#myForm').addEventListener('submit', calculate);
+
+        function calculate(){
+            event.preventDefault();
+            var card={
+                month: document.querySelector('#month').value,
+                income: document.querySelector('#income').value,
+                expense: document.querySelector('#expense').value,
+                savings: (+(document.querySelector('#income').value))-(+(document.querySelector('#expense').value))
+            }
+            totalExpense.push(card);
+            localStorage.setItem('userData',JSON.stringify(totalExpense));
+            document.querySelector('#container').innerHTML='';
+
+            totalExpense.forEach(function(details){
+                var card=document.createElement('div');
+                card.setAttribute('class','card');
+
+                var month=document.createElement('p');
+                month.setAttribute('class','cardM');
+                month.innerText=details.month;
+
+                var income=document.createElement('p');
+                income.setAttribute('class','cardI');
+                income.innerText="Your income is Rs " +details.income +"/-";
+
+                var expense=document.createElement('p');
+                expense.setAttribute('class','cardE');
+                expense.innerText="Your expense is Rs " +details.expense +"/-";
+
+                var savings=document.createElement('p');
+                savings.setAttribute('class','cardS');
+                savings.innerText="Your Savings is Rs " +details.savings +"/-";
+
+                card.append(month, income, expense, savings);
+
+                document.querySelector('#container').append(card);
+            });
+            document.querySelector('#month').value='';
+            document.querySelector('#income').value='';
+            document.querySelector('#expense').value='';
+        }
+    </script>
+
+</body>
+</html>

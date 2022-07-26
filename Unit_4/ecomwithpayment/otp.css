@@ -1,0 +1,18 @@
+#otpBox{
+    display: flex;
+    /* border: 1px solid red; */
+    border-radius: 10px;
+    width: 30%;
+    margin: auto;
+    margin-top: 2%;
+    padding: 1%;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+input{
+    width: 60%;
+    height: 2vw;
+    margin: auto;
+}
+p{
+    margin: auto;
+}
