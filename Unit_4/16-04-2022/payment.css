@@ -1,0 +1,36 @@
+#inputDiv{
+    /* border: 1px solid red; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 5px;
+    width: 30%;
+    margin: auto;
+    margin-top: 3%;
+    padding: 20px;
+}
+#inputForm{
+    /* border: 1px solid black; */
+    display: flex;
+    padding: 10px;
+    flex-direction: column;
+}
+#inputForm>input{
+    padding: 10px;
+    margin: 2%;
+    border: 1px solid rgba(130, 125, 125, 0.408);
+    border-radius: 10px;
+}
+#inputForm>#submitBtn{
+    /* border: 1px solid red; */
+    width: 50%;
+    padding: 13px;
+    margin: auto;
+    margin-top: 3%;
+    border: none;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    color: white;
+    background-color: rgba(255, 128, 0, 0.592);
+}
+#inputForm>#submitBtn:hover{
+    cursor: pointer;
+    background-color: orange;
+}

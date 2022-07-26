@@ -1,0 +1,89 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#inputDiv{
+    /* border: 1px solid red; */
+    margin: auto;
+    /* margin-top: 30px; */
+    width : 490px;
+    display: flex;
+    flex-direction: row;
+}
+#taskDiv{
+    /* border:1px solid red; */
+    width : 500px;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    padding: 10px;
+    margin-top: 40px;
+}
+#taskDetails{
+    height: 20px;
+    padding: 10px;
+    width: 415px;
+    gap: 10px;
+    margin: auto;
+    font-size: 17px;
+    outline: none;
+    border: 1px solid gray;
+    border-radius: 5px;
+    font-weight: 500;
+}
+#taskStatus{
+    margin: auto;
+    margin-right: 0;
+    /* margin-top: 0; */
+    width : 41px;
+    height : 41px;
+}
+#addTaskBtn{
+    margin: auto;
+    width: 150px;
+    padding: 10px;
+    margin-top: 10px;
+    font-size: 16px;
+    font-weight: 600;
+    background-color: #fc8019;
+    border: none;
+    color: whitesmoke;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#taskList{
+    list-style-type: none;
+    /* border: 1px solid red; */
+    width: 480px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    margin: auto;
+    text-align: center;
+    margin-top: 50px;
+    /* margin-left: 0; */
+    padding-left: 10px;
+    gap: 5px;
+}
+#taskList>li{
+    border: 1px solid gray;
+    font-size: 17px;
+    font-weight: 500;
+    padding: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    /* cursor: pointer; */
+    /* margin: auto; */
+}
+
+.span2{
+    font-weight: 600;
+    cursor: pointer;
+
+}
+
+.span1{
+    font-weight: 500;
+    cursor: pointer;
+
+}

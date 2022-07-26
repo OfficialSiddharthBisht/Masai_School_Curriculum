@@ -1,0 +1,42 @@
+body{
+    background-color: #f7f7f7;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#table{
+    border-collapse: collapse;
+    /* text-align: left; */
+    /* border: 1px solid red; */
+    padding: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 400px;
+    text-align: center;
+    margin: auto;
+}
+td,th{
+    border: 1px solid rgba(128, 128, 128, 0.258);
+    padding: 10px;
+}
+
+#search{
+    /* border: 1px solid red; */
+    display: flex;
+    width: 400px;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 30px;
+    padding: 10px;
+}
+#searchBar{
+    width: 300px;
+    padding: 5px;
+}
+#PokeDiv{
+    /* border: 1px solid red; */
+    padding: 20px;
+    width: 90%;
+    margin: auto;
+    /* background-color: white; */
+}
+#heading{
+    text-align: center;
+}

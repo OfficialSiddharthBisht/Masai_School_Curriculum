@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Edit</title>
+    <link rel="stylesheet" href="./edit.css">
+</head>
+<body>
+    <form id="editStudent">
+        <h2>Edit Student Data in DB</h2>
+        <span>Name</span>
+        <input type="text" id="name" placeholder="Enter Full Name">
+        <span>Age</span>
+        <input type="number" id="age" placeholder="Enter Age">
+        <span>Gender</span>
+        <select id="gender">
+            <option value="">Select Gender</option>
+            <option value="Male">Male</option>
+            <option value="Female">Female</option>
+        </select>
+        <span>Marks</span>
+        <input type="number" id="marks" placeholder="Enter Marks">
+        <span>Cohort</span>
+        <input type="number" id="cohort" placeholder="Enter Cohort Number">
+        <input type="submit" id="update" value="Update">
+    </form>
+</body>
+</html>
+
+<script src="./edit.js"></script>

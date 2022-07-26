@@ -1,0 +1,50 @@
+body{
+    background-color: #f6f6f6;
+}
+#navBar{
+    /* width: 80%; */
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    /* margin-top: 1%; */
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background-color: #f8f8f8;
+    padding: 20px;
+}
+#navBar>a{
+    font-size: 20px;
+    text-decoration: none;
+}
+#selectDiv{
+    /* border: 1px solid red; */
+    margin-top: 2%;
+    /* display: flex; */
+    text-align: center;
+}
+#brewerySelect{
+    padding: 5px;
+    width: 150px;
+    outline: none;
+    background-color: #f6f6f6;
+}
+#tableDiv{
+    /* border: 1px solid red; */
+    margin-top: 1%;
+    padding: 10px;
+}
+#table{
+    /* border-collapse: collapse; */
+    /* border: 1px solid blue; */
+    padding: 10px;
+    text-align: left;
+    margin: auto;
+    
+}
+#table>thead>tr>th{
+    /* border: 1px solid black; */
+    padding: 5px;
+}
+#table>tbody>tr>td{
+    /* border: 1px solid black; */
+    padding: 5px;
+}

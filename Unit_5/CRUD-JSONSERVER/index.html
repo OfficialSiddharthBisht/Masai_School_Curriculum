@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Data Base</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+    <div id="container">
+        <div id="leftPart"></div>
+        <div id="rightPart">
+            <form id="createStudent">
+                <h2>Add New Student to DB</h2>
+                <span>Name</span>
+                <input type="text" id="name" placeholder="Enter Full Name">
+                <span>Age</span>
+                <input type="number" id="age" placeholder="Enter Age">
+                <span>Gender</span>
+                <select id="gender">
+                    <option value="">Select Gender</option>
+                    <option value="Male">Male</option>
+                    <option value="Female">Female</option>
+                </select>
+                <span>Marks</span>
+                <input type="number" id="marks" placeholder="Enter Marks">
+                <span>Cohort</span>
+                <input type="number" id="cohort" placeholder="Enter Cohort Number">
+                <input type="submit" id="addStudent" value="Add Student">
+            </form>
+        </div>
+        
+    </div>
+</body>
+</html>
+<script src="./index.js"></script>

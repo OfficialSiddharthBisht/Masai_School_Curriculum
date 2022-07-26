@@ -1,0 +1,124 @@
+{
+  "students": [
+    {
+      "name": "Ellery Harrison",
+      "age": "26",
+      "gender": "Male",
+      "marks": "8",
+      "cohort": "30",
+      "id": 1
+    },
+    {
+      "id": 2,
+      "name": "Jannel Kirlin",
+      "gender": "Female",
+      "age": 26,
+      "marks": 5,
+      "cohort": 3
+    },
+    {
+      "id": 3,
+      "name": "Flin Bullas",
+      "gender": "Male",
+      "age": 19,
+      "marks": 6,
+      "cohort": 28
+    },
+    {
+      "id": 4,
+      "name": "Wally Grahl",
+      "gender": "Male",
+      "age": 24,
+      "marks": 1,
+      "cohort": 24
+    },
+    {
+      "id": 5,
+      "name": "Luis Pinshon",
+      "gender": "Male",
+      "age": 21,
+      "marks": 8,
+      "cohort": 26
+    },
+    {
+      "id": 6,
+      "name": "Kareem Swalwel",
+      "gender": "Male",
+      "age": 20,
+      "marks": 7,
+      "cohort": 6
+    },
+    {
+      "id": 7,
+      "name": "Kaitlin Goudman",
+      "gender": "Female",
+      "age": 23,
+      "marks": 1,
+      "cohort": 18
+    },
+    {
+      "id": 8,
+      "name": "Gerianne Pancoust",
+      "gender": "Female",
+      "age": 18,
+      "marks": 1,
+      "cohort": 20
+    },
+    {
+      "id": 9,
+      "name": "Monty Yakovich",
+      "gender": "Male",
+      "age": 21,
+      "marks": 4,
+      "cohort": 3
+    },
+    {
+      "id": 10,
+      "name": "Mabelle Gaveltone",
+      "gender": "Female",
+      "age": 18,
+      "marks": 10,
+      "cohort": 10
+    },
+    {
+      "id": 11,
+      "name": "Larry Whilde",
+      "gender": "Male",
+      "age": 24,
+      "marks": 7,
+      "cohort": 24
+    },
+    {
+      "id": 12,
+      "name": "Fleur Stean",
+      "gender": "Female",
+      "age": 22,
+      "marks": 3,
+      "cohort": 11
+    },
+    {
+      "id": 13,
+      "name": "Putnam Wilkin",
+      "gender": "Male",
+      "age": 22,
+      "marks": 5,
+      "cohort": 26
+    },
+    {
+      "id": 14,
+      "name": "Ashlan Cole",
+      "gender": "Female",
+      "age": 19,
+      "marks": 2,
+      "cohort": 22
+    },
+    {
+      "name": "Akash Kumawat",
+      "age": "20",
+      "gender": "Male",
+      "marks": "9",
+      "cohort": "28",
+      "id": 15
+    }
+  ]
+}

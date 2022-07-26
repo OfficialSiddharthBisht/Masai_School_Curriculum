@@ -1,0 +1,31 @@
+#editStudent{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+    border-radius: 10px;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+    margin: auto;
+    margin-top: 2%;
+}
+input{
+    padding: 5px;
+    outline: none;
+}
+select{
+    padding: 5px;
+    outline: none;
+}
+h2{
+    text-align: center;
+    margin-top: 0%;
+}
+#update{
+    width: 50%;
+    margin: auto;
+    margin-top: 10px;
+}

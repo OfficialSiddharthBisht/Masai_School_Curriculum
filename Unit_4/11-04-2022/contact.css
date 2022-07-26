@@ -1,0 +1,38 @@
+#navBar{
+    /* border: 1px solid red; */
+    display: flex;
+    justify-content: space-around;
+    padding: 1%;
+    border-radius: 0.5vw;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+a{
+    text-decoration: none;
+    color: teal;
+    font-size: 2vw;
+}
+#tableBox{
+    /* border: 1px solid red; */
+    width: 60%;
+    margin: auto;
+    margin-top: 5%;
+    
+}
+table{
+    /* border: 1px solid black; */
+    border-collapse: collapse;
+    margin: auto;
+    width: 100%;
+}
+table, td, th{
+    border: 1px solid #ddd;
+    text-align: left;
+}
+th{
+    padding: 2%;
+    background-color: teal;
+    color: white;
+}
+td{
+    padding: 2%; 
+}
