@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mac D Order</title>
+    <link rel="stylesheet" href="./index.css">
+</head>
+<body>
+<div id="maindiv">
+    <div id="orderDetails">
+          <label>Name :</label>
+          <input type="text" id="name" placeholder="Enter Your Name">
+          <label>Mobile Number :</label>
+          <input type="number" id="number" placeholder="Enter Mobile Number">
+          <!-- <form id="foodform"> -->
+            <label id="chooseFood">Choose Your Food :</label>
+            
+            <label for="FrenchFries"><input type="checkbox" name="FrenchFries" id="FrenchFries" value="FrenchFries"> French Fries</label>
+            
+            <label for="ChickenMcNuggets"><input type="checkbox" id="ChickenMcNuggets" name="ChickenMcNuggets" value="ChickenMcNuggets"> Chicken McNuggets</label>
+            
+            <label for="Coca-ColaClassic"><input type="checkbox" id="Coca-ColaClassic" name="Coca-ColaClassic" value="Coca-ColaClassic"> Coca-Cola Classic</label>
+            
+            <label for="VanillaIceCream"><input type="checkbox" id="VanillaIceCream" name="VanillaIceCream" value="VanillaIceCream"> Vanilla Ice Cream</label>
+            
+            <label for="BigMac"><input type="checkbox" id="BigMac" name="BigMac" value="BigMac"> Big Mac</label>          
+            
+            <label for="IcedCoffee"><input type="checkbox" id="IcedCoffee" name="IcedCoffee" value="IcedCoffee"> Iced Coffee</label>
+            
+            <label for="SweetTea"><input type="checkbox" id="SweetTea" name="SweetTea" value="SweetTea"> Sweet Tea</label>
+          <!-- </form> -->
+          <button onclick="foodOrdered()" id="orderfood">Order Food</button>
+    </div>
+    <div id="dashBoard">
+        <h3>Order Dashboard</h3>
+        <h4 id="workingOrder"></h4>
+        <p id="ready"></p>
+    </div>
+</div>
+    <h3 id="orderNumber"></h3>
+    <h4 id="wait"></h4>
+    <div id="imageDiv">
+
+    </div>
+
+    <script src="./index.js"></script>
+</body>
+</html>

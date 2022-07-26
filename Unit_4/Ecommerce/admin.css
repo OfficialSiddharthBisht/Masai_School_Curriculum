@@ -1,0 +1,73 @@
+body{
+    background-color: #f6f6f6;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+#inputForm{
+    margin: auto;
+    margin-top: 2%;
+    width: 400px;
+    /* border: 1px solid red; */
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    background-color: white;
+}
+#inputForm>label{
+    display: flex;
+    flex-direction: column;
+    margin: 1%;
+}
+input, select{
+    padding: 5px;
+    margin-top: 1%;
+}
+#inputForm>p{
+    /* border: 1px solid red; */
+    margin: 0%;
+    display: flex;
+    justify-content: space-between;
+    width: 70px;
+    padding: 5px;
+}
+#inputForm>p>input{
+    margin: auto;
+    margin-right: 3%;
+}
+#add{
+    width: 50%;
+    padding: 10px;
+    margin: auto;
+    border: 1px;
+    border-radius: 100px;
+    background-color: rgba(255, 140, 0, 0.796);
+    color: white;
+    font-weight: bold;
+
+}
+#add:hover{
+    cursor: pointer;
+    background-color: rgb(255, 140, 0);
+}
+#inputForm>h2{
+    text-align: center;
+    margin-top: 0%;
+}
+#prohead{
+    /* border: 1px solid red; */
+    padding: 10px;
+    text-align: right;
+    width: 90%;
+    margin: auto;
+}
+#prohead>a{
+    text-decoration: none;
+    background-color: rgba(255, 140, 0, 0.796);
+    color: black;
+    padding: 5px;
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 10px;
+}

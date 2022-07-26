@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin</title>
+    <link rel="stylesheet" href="./admin.css">
+  
+</head>
+<body>
+    <h3 id="prohead"><a href="./products.html">Products</a></h3>
+    <form id="inputForm">
+        <h2>Add Product</h2>
+        <label>Product Name
+            <input id="name" type="text" placeholder="Enter Product Name">
+        </label>
+        <label>Category
+            <input id="category" type="text" placeholder="Enter Category">
+        </label>
+        <label>Image url
+            <input id="image" type="url" placeholder="Enter url of Image">
+        </label>
+        <label>Price
+            <input id="price" type="number" placeholder="Enter Price">
+        </label>
+        <label>Gender
+            <select id="gender">
+                <option value="">Select Gender</option>
+                <option value="Male">Male</option>
+                <option value="Female">Female</option>
+                <option value="Male">Others</option>
+            </select>
+        </label>
+        <p>Sold <input id="sold" type="checkbox"></p>
+        <input id="add" type="submit" value="Add">
+    </form>
+
+
+    <script src="./admin.js"></script>
+</body>
+</html>

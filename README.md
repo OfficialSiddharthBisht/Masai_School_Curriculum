@@ -7,8 +7,10 @@
     <li>11-04-2022</li>
     <li>16-04-2022</li>
     <li>e-commerce-pages</li>
+    <li>E-commerce</li>
     <li>e-commerce-with-payment</li>
     <li>e-commerce-with-promo-feature</li>
+    <li>MacD - Order</li>
     <li>signup-login</li>
     <li>U4-C3</li>
 </ol>
