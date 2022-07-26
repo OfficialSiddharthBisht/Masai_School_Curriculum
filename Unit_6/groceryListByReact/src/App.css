@@ -1,0 +1,14 @@
+.App {
+  text-align: center;
+}
+
+.groceryItemDiv{
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid red; */
+  margin: 10px;
+  gap: 20px;
+}
+.groceryItemDiv>h3{
+  margin: 0;
+}

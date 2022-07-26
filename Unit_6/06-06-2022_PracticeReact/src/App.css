@@ -1,0 +1,31 @@
+.App {
+  /* text-align: center; */
+  display: flex;
+  /* border: 1px solid red; */
+  padding: 20px;
+  flex-direction: row;
+  justify-content: left;
+  gap: 50px;
+}
+.ProfileSection{
+  /* border: 1px solid red; */
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  padding: 10px;
+  border-radius: 5px;
+}
+.ToDoSection{
+  /* border: 1px solid red; */
+  padding: 10px;
+}
+
+#moreDetailsDiv{
+  display: none;
+}
+#hideMoreBtn{
+  display: none;
+}
+.moreBtnsDiv{
+  /* text-align: center; */
+  display: flex;
+  justify-content: center;
+}

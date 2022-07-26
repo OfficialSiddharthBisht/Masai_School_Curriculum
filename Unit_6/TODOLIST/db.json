@@ -1,0 +1,50 @@
+{
+  "UserData": [
+    {
+      "id": "1",
+      "UserName": "Akash Kumawat",
+      "UserEmail": "akashkmt963@gmail.com",
+      "UserPassword": "AAaa@123",
+      "UserTasks": [
+        {
+          "id": "1",
+          "Task": "Task 1",
+          "Status": true
+        },
+        {
+          "id": "2",
+          "Task": "Task 2",
+          "Status": false
+        },
+        {
+          "id": "adc99e19-8670-407b-86e6-ee7fd59c026c",
+          "Task": "Add Task",
+          "Status": false
+        },
+        {
+          "id": "df2d15fd-8ece-43af-a3f0-c68aaa06d96b",
+          "Task": "Hello All",
+          "Status": false
+        }
+      ]
+    },
+    {
+      "id": "7e312eaf-6d79-4638-8d82-a6982372f8c8",
+      "UserName": "Meenu Katariya",
+      "UserEmail": "meenukatariya2330@gmail.com",
+      "UserPassword": "MMmm@123",
+      "UserTasks": [
+        {
+          "id": "8f056604-3c36-4217-8654-9e46330421a3",
+          "Task": "Hello",
+          "Status": false
+        },
+        {
+          "id": "d92209cc-6cb9-4710-a627-16f4e1ad3bbf",
+          "Task": "Hiii",
+          "Status": false
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,82 @@
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #f7f7f7;
+}
+#searchBar{
+    /* border: 1px solid red; */
+    background-color: white;
+    display: flex;
+    width: 50%;
+    margin: auto;
+    margin-top: 2%;
+    justify-content: space-around;
+    padding: 15px;
+    border-radius: 10px;
+}
+#movieName{
+    width: 70%;
+    padding: 10px;
+    border: 1px solid rgb(199, 191, 191);
+    border-radius: 5px;
+}
+#searchBtn{
+    width: 25%;
+    padding: 10px;
+    border: 1px solid rgb(199, 191, 191);
+    border-radius: 5px;
+    color: white;
+    background-color: rgba(255, 68, 0, 0.857);
+    font-weight: bold;
+}
+#searchBtn:hover{
+    cursor: pointer;
+    background-color: rgb(255, 68, 0);
+}
+#movieGrid{
+    width: 90%;
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    gap: 30px;
+    padding: 20px;
+    margin: auto;
+    margin-top: 2%;
+    /* border: 1px solid red; */
+}
+.gridDiv{
+    /* border: 1px solid black; */
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    border-radius: 10px;
+    padding: 10px;
+    /* height: 500px; */
+    background-color: white;
+    /* margin: auto; */
+}
+.gridDivImg{
+    width: 100%;
+    height: 250px;
+}
+.divMovieName, .movieType, .movieYear, .movieGenre, .movieRating{
+    padding-left: 20px;
+    padding-right: 20px;
+}
+.divMovieName{
+    display: flex;
+    justify-content: space-between;
+}
+.recommended{
+    display: flex;
+    /* margin: auto; */
+    margin-top: 0%;
+    margin-bottom: 0%;
+    text-align: right;
+}
+#errorImg{
+    width: 100%;
+    /* border: 1px solid black; */
+}
+#errorBox{
+    width: 400px;
+    margin: auto;
+    text-align: center;
+    /* border: 1px solid red; */
+}

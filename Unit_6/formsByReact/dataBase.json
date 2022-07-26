@@ -1,0 +1,121 @@
+{
+  "employeeDetails": [
+    {
+      "name": "Akash Kumawat",
+      "age": "20",
+      "address": "Jaipur",
+      "salary": "1000000",
+      "department": "Technical",
+      "isMarried": false,
+      "id": 1
+    },
+    {
+      "name": "Akash",
+      "age": "20",
+      "address": "Jaipur",
+      "salary": "1000000",
+      "department": "Education",
+      "isMarried": true,
+      "id": 2
+    },
+    {
+      "name": "a",
+      "age": "1",
+      "address": "a",
+      "salary": "1",
+      "department": "Education",
+      "isMarried": true,
+      "id": 3
+    },
+    {
+      "name": "Akash Kumawat",
+      "age": "20",
+      "address": "Jaipur",
+      "salary": "1000000",
+      "department": "Technical",
+      "isMarried": false,
+      "id": 4
+    },
+    {
+      "name": "Akash",
+      "age": "20",
+      "address": "Jaipur",
+      "salary": "1000000",
+      "department": "Education",
+      "isMarried": true,
+      "id": 5
+    },
+    {
+      "name": "a",
+      "age": "1",
+      "address": "a",
+      "salary": "1",
+      "department": "Education",
+      "isMarried": true,
+      "id": 6
+    },
+    {
+      "name": "Akash Kumawat",
+      "age": "20",
+      "address": "Jaipur",
+      "salary": "1000000",
+      "department": "Technical",
+      "isMarried": false,
+      "id": 7
+    },
+    {
+      "name": "Akash",
+      "age": "20",
+      "address": "Jaipur",
+      "salary": "1000000",
+      "department": "Education",
+      "isMarried": true,
+      "id": 8
+    },
+    {
+      "name": "a",
+      "age": "1",
+      "address": "a",
+      "salary": "1",
+      "department": "Education",
+      "isMarried": true,
+      "id": 9
+    },
+    {
+      "name": "Akash Kumawat",
+      "age": "20",
+      "address": "Jaipur",
+      "salary": "1000000",
+      "department": "Technical",
+      "isMarried": false,
+      "id": 10
+    },
+    {
+      "name": "Akash",
+      "age": "20",
+      "address": "Jaipur",
+      "salary": "1000000",
+      "department": "Education",
+      "isMarried": true,
+      "id": 11
+    },
+    {
+      "name": "a",
+      "age": "1",
+      "address": "a",
+      "salary": "1",
+      "department": "Education",
+      "isMarried": true,
+      "id": 12
+    },
+    {
+      "name": "git",
+      "age": "12",
+      "address": "hub",
+      "salary": "124",
+      "department": "Technical",
+      "isMarried": false,
+      "id": 13
+    }
+  ]
+}

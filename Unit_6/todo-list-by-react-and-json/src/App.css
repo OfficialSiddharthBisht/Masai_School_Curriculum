@@ -1,0 +1,13 @@
+.App {
+  text-align: center;
+}
+.listItem{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+.listItem>h4{
+  margin: 0;
+}

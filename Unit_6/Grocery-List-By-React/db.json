@@ -1,0 +1,34 @@
+{
+  "task": [
+    {
+      "id": "9bde6955-be9b-426c-82e8-c13d9ef5ea1a",
+      "title": "Onion",
+      "status": true
+    },
+    {
+      "id": "efef1898-df00-4020-b761-4838003ac1dd",
+      "title": "Orange",
+      "status": false
+    },
+    {
+      "id": "fc3b578a-96dd-48ce-a16a-b5f88156a076",
+      "title": "Patato",
+      "status": false
+    },
+    {
+      "id": "d4e73b29-b73e-4b8e-970e-6c9e62a3a89a",
+      "title": "Tomato",
+      "status": false
+    },
+    {
+      "id": "8bd13c48-b66e-4659-bf27-e67fb6c42831",
+      "title": "Chilli",
+      "status": true
+    },
+    {
+      "id": "242cda25-32f2-44ae-abe7-907cc6cbc40e",
+      "title": "Ginger",
+      "status": false
+    }
+  ]
+}

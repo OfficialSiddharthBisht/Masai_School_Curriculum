@@ -1,0 +1,54 @@
+.App {
+  text-align: center;
+}
+
+#employeeForm{
+  /* border: 1px solid red; */
+  margin: auto;
+  text-align: left;
+  padding: 10px;
+  gap: 5px;
+  width: 350px;
+  display: flex;
+  flex-direction: column;
+}
+
+#employeeForm>label{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+#employeeForm>p{
+  margin: 0;
+}
+#employeeForm>label>input{
+  padding: 5px;
+}
+#employeeForm>select{
+  padding: 5px;
+}
+#submitBtn{
+  width: 50%;
+  margin: auto;
+  margin-right: 0;
+  padding: 5px;
+}
+input, select{
+  outline: none;
+}
+#employeeTable{
+  margin: auto;
+  border-collapse: collapse;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.thAndTd{
+  border: .1px solid gray;
+  text-align: left;
+  padding: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+}
+#tableDiv{
+  margin-bottom: 20px;
+}
