@@ -50,3 +50,15 @@
     <li>U6-Evaluation</li>
     <li>U6-C2</li>
 </ol>
+<h3>Unit 7</h3>
+<ol>
+    <li>09-07-2022</li>
+    <li>Auth By Express</li>
+    <li>First API By Express</li>
+    <li>Mongo Queries</li>
+    <li>Movie API</li>
+    <li>Node Intro</li>
+    <li>Relationships</li>
+    <li>Unit 7 Last</li>
+    <li>Unit 7 C1</li>
+</ol>

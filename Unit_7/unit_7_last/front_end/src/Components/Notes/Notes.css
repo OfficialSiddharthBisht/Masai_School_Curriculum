@@ -1,0 +1,19 @@
+.note-box{
+    margin-top: 10px;
+    padding: 20px;
+}
+
+.note-form-box > form{
+    border: .1px solid gray;
+    border-radius: 10px;
+    margin: auto;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    width: 400px;
+}
+
+.note-form-box > form > h3{
+    margin: 0;
+}
