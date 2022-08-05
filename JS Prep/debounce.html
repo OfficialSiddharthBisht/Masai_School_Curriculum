@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input id="inputBar" type="text" />
+  </body>
+  <script>
+    // let timerId;
+    // function debounce(func, wait) {
+    //   if (timerId) {
+    //     clearTimeout(timerId);
+    //   }
+    //   timerId = setTimeout(func, wait);
+    // }
+    let timeOut;
+    function debounce(func, wait){
+        return function mainFunction (...arguments){
+            if(timeOut){
+                clearTimeout(timeOut);
+            }
+            timeOut = setTimeout(func, wait);
+        }
+    }
+    function print() {
+      console.log(document.getElementById('inputBar').value);
+    }
+    document.getElementById('inputBar').addEventListener('input', ()=>{
+        debounce(print,1000)();
+    })
+    // var call = debounce(print, 200);
+  </script>
+</html>
