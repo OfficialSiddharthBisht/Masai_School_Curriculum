@@ -19,7 +19,7 @@
     // }
     let timeOut;
     function debounce(func, wait){
-        return function mainFunction (...arguments){
+        return function mainFunction (){
             if(timeOut){
                 clearTimeout(timeOut);
             }
@@ -29,8 +29,12 @@
     function print() {
       console.log(document.getElementById('inputBar').value);
     }
+    let call = debounce(print,1000);
+    console.log(call);
     document.getElementById('inputBar').addEventListener('input', ()=>{
-        debounce(print,1000)();
+        // debounce(print,1000)();
+        call();
+        // debounce(print,1000);
     })
     // var call = debounce(print, 200);
   </script>

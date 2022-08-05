@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <input id="inputBar" type="text" />
+  </body>
+  <script>
+    var timerId;
+    function print (value){
+        console.log(value);
+    }
+    let throttle = (fun,wait) => {
+        if(timerId){
+            return;
+        }
+        let value = document.getElementById('inputBar').value;
+        timerId = setTimeout(()=>{
+            fun(value);
+            timerId = undefined;
+        },wait)
+    }
+    document.getElementById('inputBar').addEventListener('input',()=>{
+        throttle(print,2000)
+    });
+  </script>
+</html>
