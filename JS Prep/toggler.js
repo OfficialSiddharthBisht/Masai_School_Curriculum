@@ -1,4 +1,6 @@
 // example code
+
+
 function toggler(...arguments) {
     let count = 0;
     let arg = arguments;
@@ -19,3 +21,4 @@ console.log(toggle());
 console.log(toggle());
 // 3
 console.log(toggle());
+// 1

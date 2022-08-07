@@ -10,6 +10,8 @@
     <input id="inputBar" type="text" />
   </body>
   <script>
+
+
     var timerId;
     function print (value){
         console.log(value);
@@ -27,5 +29,7 @@
     document.getElementById('inputBar').addEventListener('input',()=>{
         throttle(print,2000)
     });
+
+    
   </script>
 </html>

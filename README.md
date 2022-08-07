@@ -64,4 +64,6 @@
 </ol>
 <ul>
 <li>Debounce</li>
+<li>Throttle</li>
+<li>Toggler</li>
 </ul>
