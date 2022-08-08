@@ -22,3 +22,39 @@ export const getDataCities = () => async(dispatch) => {
         console.log(error);
     }
 }
+
+export const sortByPopulation = (order, country) => async(dispatch) => {
+    try {
+        dispatch(getDataLoadingCities());
+        let res = await fetch('http://localhost:8080/cities');
+        let data = await res.json();
+        if(order === 'asc'){
+            data.sort((a, b) => a.population - b.population);
+        }
+        if(order === 'desc'){
+            data.sort((a, b) => b.population - a.population);
+        }
+        if(country){
+            data = data.filter(item => item.country === country);
+        }
+        dispatch(getDataSuccessCities(data));
+    } catch (error) {
+        console.log(error);
+    }
+}
+
+export const filterByCountry = (country) => async(dispatch) => {
+    try {
+        if(!country){
+            dispatch(getDataCities());
+            return;
+        }
+        dispatch(getDataLoadingCities());
+        let res = await fetch('http://localhost:8080/cities?country=' + country);
+        let data = await res.json();
+        
+        dispatch(getDataSuccessCities(data));
+    } catch (error) {
+        console.log(error);
+    }
+}

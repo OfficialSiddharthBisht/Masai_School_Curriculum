@@ -1,26 +1,38 @@
 {
-  "countries":[
+  "countries": [
     {
-      "country":"India",
-      "id":1
-    },
-    {
-      "country":"USA",
-      "id":2
-    }
-  ],
-  "cities":[
-    {
-      "country":"India",
-      "city":"Mumbai",
-      "population":1000000,
-      "id":1
+      "country": "India",
+      "id": 1
     },
     {
       "country": "USA",
-      "city":"New York",
-      "population":1000000,
-      "id":2
+      "id": 2
+    }
+  ],
+  "cities": [
+    {
+      "country": "India",
+      "city": "Mumbai",
+      "population": 1000000,
+      "id": 1
+    },
+    {
+      "country": "India",
+      "city": "Jaipur",
+      "population": "12345678",
+      "id": 3
+    },
+    {
+      "country": "USA",
+      "city": "New York",
+      "population": "3468345",
+      "id": 4
+    },
+    {
+      "country": "India",
+      "city": "Sikar",
+      "population": "1246347",
+      "id": 5
     }
   ]
 }
