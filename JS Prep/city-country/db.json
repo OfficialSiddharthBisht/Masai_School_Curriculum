@@ -11,20 +11,14 @@
   ],
   "cities": [
     {
-      "country": "India",
-      "city": "Mumbai",
-      "population": 1000000,
-      "id": 1
-    },
-    {
-      "country": "India",
+      "country": "Delhi",
       "city": "Jaipur",
       "population": "12345678",
       "id": 3
     },
     {
       "country": "USA",
-      "city": "New York",
+      "city": "Down Town",
       "population": "3468345",
       "id": 4
     },
