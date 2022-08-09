@@ -52,7 +52,7 @@ function City() {
   }
   return (
     <div>
-      <form onSubmit={(e)=>{handleAddCity(e)}}>
+      <form className='add-city-form' onSubmit={(e)=>{handleAddCity(e)}}>
         <select name="" id="country" value={enteredCountry} onChange={(e)=>{setEnteredCountry(e.target.value)}}>
           <option value="">Select Country</option>
           {countries?.map(country => (

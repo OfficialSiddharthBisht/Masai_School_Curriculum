@@ -42,7 +42,7 @@ function Country() {
   }
   return (
     <div>
-      <form onSubmit={(e)=>{handleAddCountry(e)}}>
+      <form className='add-city-form' onSubmit={(e)=>{handleAddCountry(e)}}>
         <input type="text" id='country' placeholder='Enter Country' value={enteredCountry} onChange={(e)=>{setEnteredCountry(e.target.value)}}/>
         <input type='submit' value="ADD" />
       </form>
